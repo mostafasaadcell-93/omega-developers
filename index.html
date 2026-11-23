@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Omega Developers</title>
+<meta name="description" content="Omega Developers builds, sells and leases directly to you. Shops, offices, clinics and 190 m² apartments in a prime location in Central Byblos. 20% down payment, 4-year plan, delivery in 3 years.">
+<meta name="theme-color" content="#14191c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Omega Developers">
+<meta property="og:title" content="Omega Developers | Prime spaces in Central Byblos">
+<meta property="og:description" content="Shops for rent, offices and clinics from 90 m², 190 m² apartments. 20% down, 4-year plan, no agents' commissions.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Montserrat:wght@500;800&family=Sora:wght@300;400;600&display=swap">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="preload" as="image" href="assets/media/byblos/byblos-front.webp" fetchpriority="high">
+<script>
+  (function () {
+    var h = document.documentElement; h.classList.add("js");
+    var seen = false;
+    try { seen = sessionStorage.getItem("om-intro") === "1"; } catch (e) {}
+    var still = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (!seen && !still) h.classList.add("show-intro", "intro-playing");
+    var lang = "en";
+    try { lang = localStorage.getItem("om-lang") === "ar" ? "ar" : "en"; } catch (e) {}
+    if (lang === "ar") {
+      h.lang = "ar"; h.dir = "rtl";
+      var f = document.createElement("link"); f.rel = "stylesheet"; f.id = "ar-fonts";
+      f.href = "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Noto+Kufi+Arabic:wght@400;600&display=swap";
+      document.head.appendChild(f);
+    }
+  })();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "Omega Developers",
+  "description": "We build, sell and lease directly to you. Shops, offices, clinics and apartments in Central Byblos, Lebanon.",
+  "telephone": "+96179338163",
+  "address": { "@type": "PostalAddress", "addressLocality": "Byblos (Jbeil)", "addressCountry": "LB" },
+  "sameAs": ["https://instagram.com/omegadevelopers"]
+}
+</script>
+<script>
+  /* Visit counter: Vercel Web Analytics, loaded only on the live site (enable Analytics in the Vercel project) */
+  if (!/claude\.ai|claudeusercontent|localhost|127\.0\.0\.1/.test(location.hostname)) {
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    var va = document.createElement("script"); va.defer = true; va.src = "/_vercel/insights/script.js"; document.head.appendChild(va);
+  }
+</script>
+</head>
+<body>
+
+<!-- Opening intro: the omega draws itself, the columns rise inside it, the name settles on the green band, then the panel lifts -->
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-stage">
+    <svg class="intro-mark" viewBox="0 0 72 60">
+      <path class="intro-omega" d="M8 54H25V47.5A22 22 0 1 1 47 47.5V54H64" fill="none" stroke="currentColor" stroke-width="5" pathLength="1"/>
+      <g class="intro-temple" fill="#fff"><path d="M24 25.5L36 18L48 25.5Z"/><rect x="25" y="27.5" width="22" height="2.6"/><rect x="27" y="31.5" width="3.6" height="12"/><rect x="34.2" y="31.5" width="3.6" height="12"/><rect x="41.4" y="31.5" width="3.6" height="12"/><rect x="25" y="44.6" width="22" height="2.6"/></g>
+    </svg>
+    <p class="intro-name"><span>Omega</span><small>Developers</small></p>
+  </div>
+  <p class="intro-skip">Tap to skip</p>
+</div>
+
+<!-- Shared drawings: the facade frames, and a line elevation of the building used until a project has photos -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="frames" viewBox="0 0 120 44">
+    <rect x="2" y="12" width="70" height="30" fill="none" stroke="currentColor" stroke-width="3"/>
+    <rect x="58" y="2" width="38" height="26" fill="none" stroke="currentColor" stroke-width="3"/>
+    <path d="M14 12v30M26 12v30M38 12v30M70 2v26M82 2v26" stroke="currentColor" stroke-width="1.2"/>
+  </symbol>
+  <symbol id="elevation" viewBox="0 0 400 260">
+    <g fill="none" stroke="currentColor" stroke-width="1.4">
+      <path d="M20 236 H380"/>
+      <path d="M70 52 L330 34 L360 236"/>
+      <path d="M86 52 V200 M314 40 V200"/>
+      <path d="M100 66 H300 M100 88 H300 M100 110 H300 M130 52 V122 M170 52 V122 M210 52 V122 M250 52 V122"/>
+      <path d="M50 122 H200 V170 H50 Z M50 170 H200 V200 H50"/>
+      <path d="M200 132 H330 V200 H200 Z"/>
+      <path d="M250 80 H306 V136 H250 Z"/>
+      <path d="M80 122 V200 M110 122 V200 M140 122 V200 M170 122 V200 M230 132 V200 M260 136 V200 M290 136 V200"/>
+      <path d="M70 200 H330 V236 H70 Z"/>
+      <path d="M110 206 V236 M150 206 V236 M190 206 V236 M230 206 V236 M270 206 V236"/>
+    </g>
+  </symbol>
+</svg>
+
+<header class="site-header">
+  <div class="shell bar">
+    <a class="brand" href="#home" data-go="home" aria-label="Omega Developers, home">
+      <span class="wordmark"><span class="wm-top"><img src="assets/img/mark.svg" alt="" width="72" height="60"><span>Mega</span></span><small>Developers</small></span>
+    </a>
+    <nav class="tabs" aria-label="Main">
+      <a href="#home" data-go="home" data-tab="home">Home</a>
+      <a href="#projects" data-go="projects" data-tab="projects">Projects</a>
+      <a href="#plan" data-go="plan" data-tab="plan">Payment plan</a>
+      <a href="#about" data-go="about" data-tab="about">About us</a>
+      <a href="#contact" data-go="contact" data-tab="contact">Contact us</a>
+    </nav>
+    <a class="saved-link" href="#saved" data-go="saved" aria-label="Saved projects">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-7.5-10.1A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.8c0 5.5-7.5 10.1-7.5 10.1Z"/></svg>
+      <span data-saved-count>0</span>
+    </a>
+    <button class="lang" type="button" data-lang-toggle lang="ar">عربي</button>
+    <button class="btn small" type="button" data-visit>Book a site visit</button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HOME ================= -->
+  <section class="view" id="view-home" aria-label="Home">
+    <div class="hero">
+      <div class="hero-media frame" data-img="byblos-front" data-eager></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="shell hero-copy">
+        <div class="hero-inner">
+          <p class="kicker">Prime location · Central Byblos</p>
+          <h1 class="display xl">Your next space in the heart of Byblos.</h1>
+          <svg class="frames" aria-hidden="true"><use href="#frames"/></svg>
+          <p class="lead">Shops, offices, clinics and apartments in one modern building. We build, sell and lease directly to you, with no agents' commissions.</p>
+          <div class="actions">
+            <a class="btn accent" href="#plan" data-go="plan">See your payment plan</a>
+            <button class="btn line-light" type="button" data-visit>Book a site visit</button>
+          </div>
+        </div>
+      </div>
+      <p class="hero-tag shell"><span>Solar-integrated top</span><span>Delivery in 3 years</span></p>
+    </div>
+
+    <div class="finder-wrap shell">
+      <form class="finder" data-finder aria-label="Find your space">
+        <label class="finder-field" for="find-space"><span>I'm looking for</span>
+          <select id="find-space" name="space">
+            <option value="apartment">An apartment</option>
+            <option value="office">An office</option>
+            <option value="clinic">A clinic</option>
+            <option value="shop">A shop</option>
+          </select>
+        </label>
+        <label class="finder-field" for="find-deal"><span>To</span>
+          <select id="find-deal" name="deal">
+            <option value="buy">Buy</option>
+            <option value="rent">Rent</option>
+          </select>
+        </label>
+        <button class="btn" type="submit">Show my options</button>
+      </form>
+    </div>
+
+    <div class="facts shell" role="list">
+      <div role="listitem"><strong>190 m²</strong><span>apartments, 2 underground parking spaces each</span></div>
+      <div role="listitem"><strong>90 m²</strong><span>offices and clinics, starting from</span></div>
+      <div role="listitem"><strong>20%</strong><span>down payment, the rest over 4 years</span></div>
+      <div role="listitem"><strong>3 years</strong><span>to delivery</span></div>
+    </div>
+
+    <section class="band shell" aria-labelledby="spaces-title">
+      <div class="head-row">
+        <h2 class="display l" id="spaces-title">Choose your space</h2>
+        <p class="muted head-note">One building, three ways in. Everything sold or leased straight from the developer.</p>
+      </div>
+      <div class="spaces">
+        <article class="space">
+          <div class="frame" data-img="shops-front"></div>
+          <div class="space-copy">
+            <p class="tag">For rent</p>
+            <h3 class="display m">Shops</h3>
+            <p>Prime commercial spaces in a high-visibility location, with strong business potential and flexible terms.</p>
+            <button class="btn accent small" type="button" data-visit="central-byblos" data-goal="shop">Secure your commercial space</button>
+          </div>
+        </article>
+        <article class="space">
+          <div class="frame" data-img="angle-day"></div>
+          <div class="space-copy">
+            <p class="tag">From 90 m²</p>
+            <h3 class="display m">Offices &amp; clinics</h3>
+            <p>Luxurious offices and clinic spaces with a 20% down payment and a 4-year payment plan.</p>
+            <button class="btn accent small" type="button" data-visit="central-byblos" data-goal="office">Book your office space</button>
+          </div>
+        </article>
+        <article class="space">
+          <div class="frame" data-img="apartments"></div>
+          <div class="space-copy">
+            <p class="tag">190 m²</p>
+            <h3 class="display m">Apartments</h3>
+            <p>Spacious 190 m² apartments, each with 2 underground parking spaces. Delivering in 3 years.</p>
+            <button class="btn accent small" type="button" data-visit="central-byblos" data-goal="apartment">Reserve your apartment today</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="band shell" aria-labelledby="help-title">
+      <h2 class="display l" id="help-title">We build, sell and lease directly to you</h2>
+      <div class="services">
+        <article class="service">
+          <svg aria-hidden="true" viewBox="0 0 48 48"><path d="M6 42h36M10 42V16l28-6v32M10 24h28M10 32h28M18 42V16M28 42V12"/></svg>
+          <h3>We build</h3>
+          <p>A modern mixed-use building in a prime location in Central Byblos, wrapped in white frames and greenery under a solar-integrated top.</p>
+          <a class="link" href="#central-byblos" data-go="central-byblos">See the project</a>
+        </article>
+        <article class="service">
+          <svg aria-hidden="true" viewBox="0 0 48 48"><path d="M8 42V20L24 8l16 12v22H8ZM18 42V30h12v12M24 8v6"/><circle cx="24" cy="21" r="3"/></svg>
+          <h3>We sell</h3>
+          <p>Apartments, offices and clinics at competitive prices, straight from the developer with no agents' commissions.</p>
+          <a class="link" href="#plan" data-go="plan">See your payment plan</a>
+        </article>
+        <article class="service">
+          <svg aria-hidden="true" viewBox="0 0 48 48"><path d="M6 18h36v24H6zM6 18l4-10h28l4 10M14 42V28h10v14M30 26h8v8h-8z"/></svg>
+          <h3>We lease</h3>
+          <p>Shops in a high-visibility location with strong business potential and flexible terms.</p>
+          <a class="link" href="#sell" data-go="sell">Secure your commercial space</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="wide" aria-labelledby="direct-title">
+      <div class="wide-media frame" data-img="aerial"></div>
+      <div class="wide-copy">
+        <p class="kicker">No agents' commissions</p>
+        <h2 class="display l" id="direct-title">Directly from the developer.</h2>
+        <p>Buy from the people who build it. Competitive prices, flexible payment plans and a building delivered in 3 years. Ideal for businesses, clinics and investments.</p>
+        <div class="actions">
+          <a class="btn accent" href="#plan" data-go="plan">Plan your payments</a>
+          <button class="btn line-light" type="button" data-visit data-goal="invest">Start your investment journey</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="band shell" aria-labelledby="home-projects">
+      <div class="head-row">
+        <h2 class="display l" id="home-projects">Our projects</h2>
+        <a class="link" href="#projects" data-go="projects">All projects</a>
+      </div>
+      <div class="cards two" data-cards></div>
+    </section>
+
+    <section class="band shell includes-band" aria-labelledby="includes-title">
+      <h2 class="display l" id="includes-title">Built into the building</h2>
+      <div class="includes">
+        <div><h3>Prime location</h3><p>Central Byblos, in a high-visibility spot for shops, offices and clinics.</p></div>
+        <div><h3>Solar-integrated top</h3><p>Solar built into the roof of the building from day one.</p></div>
+        <div><h3>Underground parking</h3><p>2 underground parking spaces with every apartment.</p></div>
+        <div><h3>Flexible payment plans</h3><p>20% down payment and a 4-year plan, delivering in 3 years.</p></div>
+      </div>
+    </section>
+
+    <section class="land" id="sell" aria-labelledby="land-title">
+      <div class="shell band land-grid">
+        <div class="land-copy">
+          <p class="kicker">Business owners</p>
+          <h2 class="display l" id="land-title">Secure your commercial space.</h2>
+          <p class="lead">Tell us what your business needs in one minute. Our team calls you back with the spaces that fit and the terms.</p>
+          <ul class="ticks">
+            <li>Shops in a high-visibility location</li>
+            <li>Offices and clinic spaces from 90 m²</li>
+            <li>Flexible terms, directly from the developer</li>
+          </ul>
+        </div>
+        <div class="land-card">
+          <div data-land-slot></div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="view" id="view-projects" aria-labelledby="projects-title" hidden>
+    <div class="page-head">
+      <div class="shell">
+        <p class="kicker">Byblos · Jbeil</p>
+        <h1 class="display xl" id="projects-title">Projects</h1>
+        <p class="lead">Modern spaces in Byblos, each one open for site visits.</p>
+      </div>
+    </div>
+    <div class="shell band">
+      <div class="filters" role="group" aria-label="Filter projects" data-filters></div>
+      <div class="rows" data-rows aria-live="polite"></div>
+    </div>
+    <section class="map-band" aria-labelledby="map-title">
+      <div class="shell band map-grid">
+        <div class="map-copy">
+          <h2 class="display l" id="map-title">Where we build</h2>
+          <p class="muted">Our flagship sits in a prime location in Central Byblos, close to the heart of the old city.</p>
+          <ul class="map-legend" data-map-legend></ul>
+          <p class="fine-note">Locations on the map are approximate. Open any project in Google Maps for directions.</p>
+        </div>
+        <div class="map-wrap" data-map></div>
+      </div>
+    </section>
+  </section>
+
+  <!-- ================= PROJECT DETAIL ================= -->
+  <section class="view" id="view-project" hidden>
+    <div class="shell">
+      <a class="back" href="#projects" data-go="projects"><span aria-hidden="true">←</span> All projects</a>
+      <div class="detail" data-detail></div>
+    </div>
+    <div class="shell band" data-gallery-wrap hidden>
+      <h2 class="display m" data-gallery-title>Gallery</h2>
+      <div class="gallery" data-gallery></div>
+    </div>
+    <div class="shell band more-projects" data-more-wrap>
+      <h2 class="display l">More projects</h2>
+      <div class="cards three" data-more></div>
+    </div>
+  </section>
+
+  <!-- ================= PAYMENT PLAN ================= -->
+  <section class="view" id="view-plan" aria-labelledby="plan-title" hidden>
+    <div class="page-head">
+      <div class="shell">
+        <p class="kicker">20% down · 4 years · 3 years to delivery</p>
+        <h1 class="display xl" id="plan-title">Your payment plan</h1>
+        <p class="lead">Pick your space and the price you have in mind. See the down payment, the installments and when you get the keys.</p>
+      </div>
+    </div>
+    <div class="shell band studio">
+      <div class="studio-preview">
+        <div class="preview-stage" data-preview aria-hidden="true"></div>
+        <div class="board" aria-label="Your plan">
+          <div class="sum"><small>Down payment (20%)</small><strong data-sum="down">$0</strong></div>
+          <div class="sum"><small>Remaining (80%)</small><strong data-sum="rest">$0</strong></div>
+          <div class="sum"><small>Over 48 months</small><strong data-sum="month">$0</strong></div>
+          <div class="sum"><small>Delivery</small><strong>3 years</strong></div>
+        </div>
+        <div class="timeline" data-timeline aria-hidden="true"></div>
+      </div>
+      <form class="studio-form" data-studio novalidate>
+        <fieldset class="opt"><legend>Your space</legend><div class="opt-row" data-opts="space"></div></fieldset>
+        <fieldset class="opt">
+          <legend>Price you have in mind</legend>
+          <div class="price-row">
+            <input type="range" name="price" min="50000" max="1000000" step="5000" value="250000" aria-label="Price in US dollars">
+            <label class="price-box"><span>$</span><input type="text" inputmode="numeric" name="priceText" aria-label="Price in US dollars" dir="ltr"></label>
+          </div>
+          <p class="fine-note">Prices come from our team. This shows how the 20% down payment and 4-year plan split any price you enter.</p>
+        </fieldset>
+        <fieldset class="opt"><legend>I'm buying to</legend><div class="opt-row" data-opts="aim"></div></fieldset>
+        <div class="brief">
+          <h2 class="display m">Send your plan</h2>
+          <p class="muted">We reply with the units available, the real prices and the schedule for your contract.</p>
+          <div class="two">
+            <div class="field"><label for="studio-name">Full name</label><input id="studio-name" name="fullname" autocomplete="name"></div>
+            <div class="field"><label for="studio-phone">Phone number</label><input id="studio-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+961" dir="ltr"></div>
+          </div>
+          <p class="form-msg" role="status"></p>
+          <a class="btn accent" data-studio-send target="_blank" rel="noopener">Send my plan on WhatsApp</a>
+        </div>
+        <p class="rent-note">Looking for a shop? Shops are offered for rent. <button class="link" type="button" data-visit="central-byblos" data-goal="shop">Ask for the terms</button></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="view" id="view-about" aria-labelledby="about-title" hidden>
+    <div class="page-head">
+      <div class="shell">
+        <p class="kicker">Omega Developers</p>
+        <h1 class="display xl" id="about-title">About us</h1>
+        <p class="lead">We build, sell and lease directly to you.</p>
+      </div>
+    </div>
+
+    <div class="shell band about-intro">
+      <div class="since">
+        <img src="assets/img/mark.svg" alt="" width="72" height="60">
+        <span>One developer, from the first drawing to the keys in your hand.</span>
+      </div>
+      <div class="prose">
+        <p>Omega Developers builds modern spaces in Byblos and deals with you directly. Our flagship rises in a prime location in Central Byblos: shops at street level, luxurious offices and clinic spaces from 90 m², and spacious 190 m² apartments above, each with 2 underground parking spaces, all under a solar-integrated top.</p>
+        <p>Because you buy or lease straight from the developer, there are no agents' commissions. Prices stay competitive and payment plans stay flexible: 20% down, the rest over 4 years, with delivery in 3 years.</p>
+      </div>
+    </div>
+
+    <div class="process-band">
+      <div class="shell band">
+        <h2 class="display l">From visit to keys</h2>
+        <ol class="process">
+          <li><h3>Choose your space</h3><p>An apartment, an office, a clinic or a shop. Tell us what you need.</p></li>
+          <li><h3>Visit the site</h3><p>Walk the project in Central Byblos with our team and go through the plans.</p></li>
+          <li><h3>Pay 20% down</h3><p>Secure your unit with a 20% down payment, directly with the developer.</p></li>
+          <li><h3>Spread the rest</h3><p>Pay the rest over 4 years. The building is delivered in 3.</p></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="shell band offices" data-offices></div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="view" id="view-contact" aria-labelledby="contact-title" hidden>
+    <div class="page-head">
+      <div class="shell">
+        <p class="kicker">Book · Ask · Visit</p>
+        <h1 class="display xl" id="contact-title">Contact us</h1>
+        <p class="lead">Book a site visit, or ask about any space in the building.</p>
+      </div>
+    </div>
+    <div class="shell band contact-grid">
+      <div class="contact-info">
+        <div>
+          <h2 class="display m">Call or WhatsApp</h2>
+          <ul class="phones" data-phones></ul>
+        </div>
+        <div>
+          <h2 class="display m">Visit the project</h2>
+          <ul class="office-list" data-office-list></ul>
+        </div>
+        <div>
+          <h2 class="display m">Follow the build</h2>
+          <p><a class="link" data-ig target="_blank" rel="noopener"></a></p>
+        </div>
+      </div>
+      <div class="form-card">
+        <h2 class="display m">Book a site visit</h2>
+        <p class="muted">Tell us when suits you. Your request opens in WhatsApp, ready to send.</p>
+        <div data-form-slot="contact"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section class="cta" aria-labelledby="cta-title">
+  <div class="shell cta-inner">
+    <div>
+      <h2 class="display l" id="cta-title">Your next investment starts here.</h2>
+      <p>Visit the site in Central Byblos and walk through the plans with our team.</p>
+    </div>
+    <button class="btn accent" type="button" data-visit>Book a site visit</button>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="shell foot">
+    <div class="foot-brand">
+      <span class="wordmark light"><span class="wm-top"><img src="assets/img/mark-light.svg" alt="" width="72" height="60"><span>Mega</span></span><small>Developers</small></span>
+    </div>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="#home" data-go="home">Home</a>
+      <a href="#projects" data-go="projects">Projects</a>
+      <a href="#plan" data-go="plan">Payment plan</a>
+      <a href="#about" data-go="about">About us</a>
+      <a href="#contact" data-go="contact">Contact us</a>
+    </nav>
+    <div class="foot-contact" data-foot-contact></div>
+  </div>
+  <div class="shell fine">© <span data-year>2026</span> Omega Developers. Byblos, Lebanon.</div>
+</footer>
+
+<dialog class="sheet" id="visitSheet" aria-labelledby="sheet-title">
+  <div class="sheet-inner">
+    <div class="sheet-top">
+      <h2 class="display m" id="sheet-title">Book a site visit</h2>
+      <button class="icon-btn" type="button" data-close aria-label="Close">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+      </button>
+    </div>
+    <div data-form-slot="sheet"></div>
+  </div>
+</dialog>
+
+<div class="lightbox" aria-hidden="true" role="dialog" aria-label="Photo viewer">
+  <button class="icon-btn lb-close" type="button" data-lb-close aria-label="Close photo">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+  </button>
+  <button class="lb-nav prev" type="button" data-lb-prev aria-label="Previous photo"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 2L4 8l6 6" stroke="currentColor" stroke-width="1.3" fill="none"/></svg></button>
+  <button class="lb-nav next" type="button" data-lb-next aria-label="Next photo"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 2l6 6-6 6" stroke="currentColor" stroke-width="1.3" fill="none"/></svg></button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+</div>
+
+<a class="fab" data-wa-general target="_blank" rel="noopener" aria-label="Chat with Omega Developers on WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg>
+</a>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
